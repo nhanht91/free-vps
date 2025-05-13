@@ -77,6 +77,8 @@ services:
       - "8006:8006"
       - "3389:3389/tcp"
       - "3389:3389/udp"
+     volumes:
+      - /temp/windows_storage:/storage
     stop_grace_period: 2m
 ```
 
