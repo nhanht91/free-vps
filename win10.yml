@@ -6,8 +6,8 @@ services:
       VERSION: "10"
       USERNAME: "ict"
       PASSWORD: "ict@123"
-      RAM_SIZE: "4G"
-      CPU_CORES: "4"
+      RAM_SIZE: "8G"
+      CPU_CORES: "16"
       DISK_SIZE: "400G"
     devices:
       - /dev/kvm
